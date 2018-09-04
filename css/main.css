@@ -1,0 +1,166 @@
+/*****LOCAL FONTS*****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+/*****BASE STYLES*****/
+body {
+	background-color: #1F202B;  /*****PAGE BACKGROUND COLOUR*****/
+	color: #999966;  /*****MAIN TEXT COLOUR*****/
+	font-family: 'Merriweather', serif;  /*****MAIN FONT FAMILY*****/
+}
+
+body header, h2, h3 {
+	font-family: 'Orbitron', sans-serif; /*****HEADER AND MAIN HEADINGS FONT FAMILY*****/
+}
+
+body h2 {
+	color: #0099FF;
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+/*****GRID*****/
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+}
+
+.half-width, .third-width {
+	float: left;
+}
+
+.three-quarter-width {
+	width: 900px;
+}
+
+.half-width {
+	width: 600px;
+}
+
+.third-width {
+	width: 400px;
+}
+
+
+/*****HEADER*****/
+header {
+	background: url('../img/hero-background.jpg') no-repeat 0px 50px;  
+	background-size: cover;
+	height: 800px;
+}
+
+header h1 {
+	font-size: 20px;
+}
+
+nav {
+	float: right;
+	padding: 0px 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+	color: #999966;
+	font-size: 20px;
+	padding-left: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header p {
+	clear: both;
+	color: #1f202b;
+	font-family: Wisdom Script;
+    font-size: 50px;
+	line-height: 60px;
+	padding: 200px 0 20px 700px;
+}
+
+header p span {
+	color: #FA0075;
+	font-size: 80px;
+}
+
+/*****PORTFOLIO*****/
+#portfolio {
+	height: 1500px;
+}
+
+#portfolio .full-width {
+	padding: 25px 0 50px 0;
+}
+
+#portfolio .half-width h3 {
+	font-size: 25px;
+    line-height: 30px;
+}
+
+#portfolio .half-width h4 {
+	font-size: 25px;
+}
+
+#portfolio .half-width img {
+	border: 2px solid #999966;
+}
+
+#portfolio p {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 50px 5px 0;
+}
+
+
+/*****ABOUT*****/
+#about {
+	background: url('../img/about-me.png') no-repeat 0px 0px;
+	background-size: cover;
+	clear: both;
+	height: 600px;
+}
+
+#about .three-quarter-width {
+	color: #1f202b;
+	font-size: 25px;
+	padding-bottom: 35px;
+}
+
+
+/*****CONTACT*****/
+#contact {
+	text-align: center;
+}
+
+#contact p {
+	padding-top: 30px;
+	font-size: 20px;
+}
+
+#contact p a {
+	color: #999966;
+	text-decoration: none;
+}
+#contact ul {
+	padding: 25px 50px;
+}
+
+#contact ul li {
+	padding-left: 20px;
+}
+
+.bottom-text {
+	border-top: 1px solid #999966;
+	clear: both;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+}
